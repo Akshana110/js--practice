@@ -32,3 +32,46 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
+
+
+
+// *********************** Operations ***********************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3); power operation
+// console.log(2/3);
+// console.log(2%3); remainder or modulus
+
+let str1 = "hello"
+let str2 = " hitesh"
+
+let str3 = str1 + str2 // there is no subtract only add
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2); - taken as string since first is string
+// console.log(1 + 2 + "2");
+
+// console.log( (3 + 4) * 5 % 3); - always use brackets
+
+// console.log(+true); - bad practice
+// console.log(+"");- bad practice
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter; // - prefix and postfix incremental
+console.log(gameCounter);
+
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
