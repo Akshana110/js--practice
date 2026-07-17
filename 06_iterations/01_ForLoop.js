@@ -1,4 +1,4 @@
-// for
+// FOR LOOP
 
 for (let i = 0; i <= 10; i++) {
     const element = i;
@@ -26,9 +26,9 @@ for (let index = 0; index < myArray.length; index++) {
     //console.log(element);
     
 }
+// *******************************************************************
 
-
-// break and continue
+// BREAK AND CONTINUE
 
 // for (let index = 1; index <= 20; index++) {
 //     if (index == 5) {
